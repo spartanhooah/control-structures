@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"myapp/game"
 )
 
@@ -37,6 +36,5 @@ func main() {
 		}
 	}
 
-	fmt.Println("Final score")
-	fmt.Println("-----------")
+	game.PrintSummary()
 }
